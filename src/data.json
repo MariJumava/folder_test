@@ -1,0 +1,15 @@
+{
+  "type": "folder",
+  "name": "root",
+  "childrens": [
+    { "type": "file", "name": "Child 1" },
+    { "type": "file", "name": "Child 2" },
+    {
+      "type": "folder",
+      "name": "Child 3",
+      "childrens": 
+      [{ "type": "file", "name": "GrandChild" }]
+    },
+    { "type": "file", "name": "Child 4" }
+  ]
+}
