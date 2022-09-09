@@ -1,15 +1,9 @@
-{
-  "type": "folder",
-  "name": "root",
-  "childrens": [
-    { "type": "file", "name": "Child 1" },
-    { "type": "file", "name": "Child 2" },
-    {
-      "type": "folder",
-      "name": "Child 3",
-      "childrens": 
-      [{ "type": "file", "name": "GrandChild" }]
-    },
-    { "type": "file", "name": "Child 4" }
-  ]
-}
+[
+  { "name": "root" },
+  { "name": "folder 1" },
+  { "name": "file 1 in folder 1" },
+  { "name": "folder 2" },
+  { "name": "folder 1 in folder 2" },
+  { "name": "file 1 folder 1 in folder 2" },
+  { "name": "file 2 folder 1 in folder 2" }
+]
